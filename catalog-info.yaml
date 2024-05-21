@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Demorepo123"
+  description: "Test"
+  annotations:
+    github.com/project-slug: Cio/Demorepo123
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/cio"
